@@ -1,0 +1,60 @@
+.header{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 50em;
+}
+blog-post{
+    padding: 0;
+    margin: 0;
+    line-height: 1.2em;
+}
+.container {
+    width: 900px;
+}
+
+.blog-post {
+    float: left;
+    width: 60%;    
+    padding: 20px;
+}
+.blog-post p{
+    font-size: 16px;
+}
+
+.blog-sidebar {
+    float: left;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+.blog-post h2 {    
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer{
+    align: center;
+    text-align: center;
+}
+.footer img{
+  
+    border: 2px dashed dimgray;
+    border-radius: 50%; 
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit;
+  
+}
+.footer .author-text{
+ 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+        
+}
