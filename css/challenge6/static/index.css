@@ -1,0 +1,38 @@
+.header {
+    margin: 0 auto;
+}
+.header h2{
+    text-align: center;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.blog-post {
+    max-width: 80%;
+    width: 80%;    
+    float: left;
+}
+
+.blog-sidebar {
+    max-width: 20%;
+    width: 20%;
+    float: left;
+    
+}
+
+.blog-post-data {
+    margin: 0.1% auto; 
+}
+
+.blog-sidebar ul {
+    list-style-type: none;
+}
+
+.footer .footer-text {
+    text-align: center;
+    margin: 0 auto;
+}
