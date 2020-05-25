@@ -11,9 +11,11 @@ var twoSum = function (numbers, target) {
       target: target,
     });
     if (matchedTargetIndexes.length > 0) {
+      console.log(matchedTargetIndexes);
       return matchedTargetIndexes;
     }
   }
+  return [];
 };
 
 var findIndexMatchesTarget = function (props) {
@@ -77,4 +79,4 @@ var doesInputMatchTarget = function (item, total, target) {
 var itemExactlyMatchesTarget = function (item, target) {
   return item === target;
 };
-twoSum([3, 2, 4], 6);
+twoSum([2,5,5,11], 10);
